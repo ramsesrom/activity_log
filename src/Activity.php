@@ -19,9 +19,11 @@ trait Activity{
         //who
         $user = static::getUser('Guest');
         $ipAddress = static::getClientIp();
+
         //what
         $modelName = class_basename($model);
         $modelId = $model->getKey();
+
         //how
         $payload = json_encode(static::hideFields($model));
 
