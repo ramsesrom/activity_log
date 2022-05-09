@@ -7,7 +7,7 @@
         }
     },
     "minimum-stability": "dev",
-    "licence": "MIT",
+    "license": "MIT",
     "require": {},
     "extra": {
         "laravel": {
